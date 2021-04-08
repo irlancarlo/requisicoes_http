@@ -61,9 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
                 // BufferedReader objeto utilizado para leitura dos caracteres do inputStreamReader
                 BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-
-
-
+                
                 String linha = "";
                 linhaBuffer = new StringBuffer();
                 while ((linha = bufferedReader.readLine())!= null){
